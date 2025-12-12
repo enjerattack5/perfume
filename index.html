@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfumería Giovani</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Perfumería Giovani</h1>
+    <nav>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Descubre tu fragancia ideal</h2>
+    <p>Perfumes elegantes y exclusivos para cada ocasión.</p>
+    <button onclick="scrollToCatalogo()">Ver catálogo</button>
+  </section>
+
+  <main id="catalogo" class="container">
+    <h2>Catálogo de Perfumes</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1611930022073-3f8c8b5c0c7f?auto=format&fit=crop&w=400&q=80" alt="Brisa Floral" />
+        <h3>Brisa Floral</h3>
+        <p>$1200 MXN</p>
+        <a class="btn-whatsapp" href="https://wa.me/529617522184?text=Hola%20Giovani%2C%20quiero%20comprar%20Brisa%20Floral" target="_blank">Comprar</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1f9?auto=format&fit=crop&w=400&q=80" alt="Romance Púrpura" />
+        <h3>Romance Púrpura</h3>
+        <p>$950 MXN</p>
+        <a class="btn-whatsapp" href="https://wa.me/529617522184?text=Hola%20Giovani%2C%20quiero%20comprar%20Romance%20Púrpura" target="_blank">Comprar</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600180758895-3c3f6a0f6f3f?auto=format&fit=crop&w=400&q=80" alt="Elegancia Invernal" />
+        <h3>Elegancia Invernal</h3>
+        <p>$1100 MXN</p>
+        <a class="btn-whatsapp" href="https://wa.me/529617522184?text=Hola%20Giovani%2C%20quiero%20comprar%20Elegancia%20Invernal" target="_blank">Comprar</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600180758895-3c3f6a0f6f3f?auto=format&fit=crop&w=400&q=80" alt="Gema Rosada" />
+        <h3>Gema Rosada</h3>
+        <p>$1350 MXN</p>
+        <a class="btn-whatsapp" href="https://wa.me/529617522184?text=Hola%20Giovani%2C%20quiero%20comprar%20Gema%20Rosada" target="_blank">Comprar</a>
+      </div>
+    </div>
+  </main>
+
+  <section id="contacto" class="contacto">
+    <h2>Haz tu pedido</h2>
+    <p>Compra directa por WhatsApp con atención personalizada.</p>
+    <a class="btn-whatsapp" href="https://wa.me/529617522184?text=Hola%20Giovani%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20perfumes" target="_blank">Escribir por WhatsApp</a>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Perfumería Giovani</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
